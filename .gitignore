@@ -1,0 +1,17 @@
+**/lesson-remote-info.yaml
+**/section-remote-info.yaml
+**/task-remote-info.yaml
+
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
