@@ -19,4 +19,5 @@ additional_files:
   - name: build.gradle
   - name: settings.gradle
   - name: gradle/wrapper/gradle-wrapper.properties
+  - name: common/image/yet-another-sql-course-logo.svg
 yaml_version: 5
