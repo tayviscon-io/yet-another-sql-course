@@ -1,0 +1,6 @@
+type: theory
+files:
+  - name: task.md
+    visible: true
+  - name: definition-of-acid.svg
+    visible: false
