@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+quiz_header: Какие запросы UPDATE выполнятся в такой транзакции? Выберите единственный верный ответ.
+options:
+  - text: 1, 2 и 5.
+    is_correct: false
+  - text: 1, 2, 3 и 5.
+    is_correct: false
+  - text: 1, 4 и 5.
+    is_correct: false
+  - text: 1 и 5.
+    is_correct: true
+message_correct: Это правильный ответ. RELEASE SAVEPOINT удаляет вторую точку сохранения
+  и следующий за ним ROLLBACK TO отменит все запросы, которые были выполнены, - кроме запрос 1.
+message_incorrect: Учти, что RELEASE SAVEPOINT удаляет вторую точку сохранения,
+  и следующий за ним ROLLBACK TO отменит все запросы, которые были выполнены после ближайшей валидной точки сохранения.
+files:
+  - name: task.md
+    visible: true
+  - name: block_of_transaction.svg
+    visible: false
+  - name: rollback_to_savepoint_demonstration.svg
+    visible: true
+local_check: true
