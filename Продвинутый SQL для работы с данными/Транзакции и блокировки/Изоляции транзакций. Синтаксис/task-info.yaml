@@ -1,0 +1,16 @@
+type: theory
+files:
+  - name: task.md
+    visible: true
+  - name: read-committed-demonstration-step-1.svg
+    visible: false
+  - name: read-committed-demonstration-step-2.svg
+    visible: false
+  - name: read-committed-demonstration-step-3.svg
+    visible: false
+  - name: repeatable-read-demonstration-step-1.svg
+    visible: false
+  - name: repeatable-read-demonstration-step-2.svg
+    visible: false
+  - name: serialization-anomaly-demonstration-step-1.svg
+    visible: false
